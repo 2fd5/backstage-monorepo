@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: top-level-app
+  annotations:
+    github.com/project-slug: 2fd5/backstage-monorepo
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://play.grafana.org/
+      title: My Dashboard
+      icon: FastRewind
+spec:
+  type: app
+  lifecycle: production
+  owner: sustain-group
