@@ -7,3 +7,4 @@ metadata:
 spec:
   type: repository
   lifecycle: dev
+  owner: mono-user
