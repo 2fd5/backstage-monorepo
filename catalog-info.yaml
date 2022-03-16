@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-monorepo
+  annotations:
+    github.com/project-slug: 2fd5/backstage-monorepo
+spec:
+  type: repository
+  lifecycle: dev
